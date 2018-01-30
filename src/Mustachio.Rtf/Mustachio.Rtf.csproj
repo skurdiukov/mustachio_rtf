@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>..\..\build\Analyzers.ruleset</CodeAnalysisRuleSet>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\build\project.snk</AssemblyOriginatorKeyFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright 2018</Copyright>
+    <Author>skurdiukov</Author>
+    <PackageProjectUrl>https://github.com/skurdiukov/mustachio_rtf</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/skurdiukov/mustachio_rtf.git</RepositoryUrl>
+    <Description>Rtf template functions</Description>
+    <Version>1.0.1</Version>
+    <Build_Number Condition=" '$(Build_Number)' == '' ">0</Build_Number>
+    <FileVersion>$(Version).$(Build_Number)</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4047473-EBA5-4562-A9FA-56F1A6688A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mustachio.Rtf", "src\Mustachio.Rtf\Mustachio.Rtf.csproj", "{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0341B415-E3A1-4D17-A219-DF84F318BA99}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B705E73D-B750-446F-9A6A-4A0E7CF2DCBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mustachio.Rtf.Tests", "tests\Mustachio.Rtf.Tests\Mustachio.Rtf.Tests.csproj", "{84AA1909-8D70-4B9E-A584-F34AA7C91996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AA1909-8D70-4B9E-A584-F34AA7C91996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AA1909-8D70-4B9E-A584-F34AA7C91996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AA1909-8D70-4B9E-A584-F34AA7C91996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AA1909-8D70-4B9E-A584-F34AA7C91996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAC533C3-8BD0-476F-B1BD-60A48A16F8EE} = {A4047473-EBA5-4562-A9FA-56F1A6688A88}
+		{84AA1909-8D70-4B9E-A584-F34AA7C91996} = {B705E73D-B750-446F-9A6A-4A0E7CF2DCBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8441307-70B5-4F27-99A5-DAA13D23ACBD}
+	EndGlobalSection
+EndGlobal
