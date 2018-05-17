@@ -1,4 +1,4 @@
-version: '{build}'
+version: 1.1.0-{build}
 image: Visual Studio 2017
 
 # build platform, i.e. x86, x64, Any CPU. This setting is optional.
@@ -11,15 +11,15 @@ environment:
   BUILD_NUMBER: '%APPVEYOR_BUILD_NUMBER%'
 
 build_script:
-- cmd: dotnet pack -c %configuration% -o ../../packages
+- cmd: dotnet build -c %configuration%
 
 test:
   assemblies:
     only:
-    - tests/**/Release/*.Tests.dll
+    - tests/**/*.Tests.dll
 
 after_test:
-- cmd: dotnet pack -c Release -o ../../packages
+- cmd: dotnet pack -c %configuration% -o ../../packages
 
 artifacts:
 - path: packages/*.nupkg
