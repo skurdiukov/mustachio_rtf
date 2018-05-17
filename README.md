@@ -1,9 +1,11 @@
 # Mustachio.Rtf
+# [![AppVeyor](https://img.shields.io/appveyor/ci/skurdiukov/mustachio-rtf.svg)](https://ci.appveyor.com/project/skurdiukov/mustachio-rtf) [![AppVeyor tests](https://img.shields.io/appveyor/tests/skurdiukov/mustachio-rtf.svg)](https://ci.appveyor.com/project/skurdiukov/mustachio-rtf) [![NuGet](https://img.shields.io/nuget/v/Mustachio.Rtf.svg)](https://www.nuget.org/packages/Mustachio.Rtf/)
+
 A Lightweight, powerful, flavorful, templating engine for C# and other .net-based languages.
 
 #### What's this for?
 
-*Mustachio.Rtf* allows you to create simple text-based templates that are fast and safe to render. It's based on [Mustachio] project.
+*Mustachio.Rtf* allows you to create simple rtf-based templates that are fast and safe to render. It's based on [Mustachio] project.
 
 #### How to use Mustachio:
 
@@ -34,7 +36,7 @@ Install-Package Mustachio.Rtf
 Mustachio contains a few modifications to the core Mustache language that are important.
 
 1. Escape char replaced from `{` to `[`
-2. Characted escaping now based on rtf rules, rather then html
+2. Character escaping now based on rtf rules, rather then html
 3. Added support to value formating from @JPVenson patch
 
 [Mustachio]: https://github.com/wildbit/mustachio
