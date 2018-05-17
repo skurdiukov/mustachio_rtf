@@ -12,7 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/skurdiukov/mustachio_rtf.git</RepositoryUrl>
     <Description>Rtf template functions</Description>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Build_Number Condition=" '$(Build_Number)' == '' ">0</Build_Number>
     <FileVersion>$(Version).$(Build_Number)</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
